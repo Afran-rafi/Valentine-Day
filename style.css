@@ -1,0 +1,233 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: rgb(253, 224, 229); */
+}
+
+nav{
+    position: absolute;
+    top: 2%;
+    left: 30%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    padding: 5px 10px;
+    background-image: linear-gradient(45deg, pink, tomato);
+    border-radius: 25px;
+}
+
+header{
+    margin: 20px 0px 0px 20px;
+}
+
+.main{
+    display: flex; 
+
+}
+
+.Button{
+    font-size: 30px;
+    color:white;
+    background-image: linear-gradient(45deg, red, tomato); 
+    box-shadow: 10px 10px 10px rgb(143, 3, 3);
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+#Button-style{
+    font-size: 20px;
+}
+
+#Distant{
+    margin-left: 340px;
+    background-image: linear-gradient(45deg, red, tomato); 
+    box-shadow: 10px 10px 10px rgb(94, 0, 16);
+}
+
+#valen{
+    margin-left: 60px;
+    font-size: 40px;
+    margin-top: 0%;
+    color: red;
+}
+
+#ab{
+    color: pink;
+}
+
+.Content{
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.image{
+    width: 50%;
+}
+
+.image img{
+    width: 75%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.Animation{
+    font-size: 49px;
+    color: transparent;
+}
+
+/* #f::before{
+    content: "Hey,";
+    color: pink;
+    animation: typing 3s linear infinite;
+} */
+
+/* #s::before{
+    content: "Sweet-Heart";
+    color: pink;
+    animation: typing 3s linear infinite;
+} */
+
+#t::before{
+    content: "Adiba_Afran|";
+    color:red;
+    animation: typing 3s linear infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: 'A|';
+    }
+
+    5% {
+        content: 'Ad|';
+    }
+
+    10% {
+        content: 'Adi|';
+    }
+
+    15% {
+        content: 'Adib|';
+    }
+
+    20% {
+        content: 'Adiba|';
+    }
+
+    25% {
+        content: 'Adiba_|';
+    }
+
+    30% {
+        content: 'Adiba_A|';
+    }
+
+    35% {
+        content: 'Adiba_Af|';
+    }
+
+    40% {
+        content: 'Adiba_Afr|';
+    }
+
+    45% {
+        content: 'Adiba_Afra|';
+    }
+
+    50% {
+        content: 'Adiba_Afran|';
+    }
+
+    70%,
+    73% {
+        content: 'Adiba_Afran|';
+    }
+
+    75% {
+        content: 'Adiba_Afra|';
+    }
+
+    77% {
+        content: 'Adiba_Afr|';
+    }
+
+    79% {
+        content: 'Adiba_Af|';
+    }
+
+    81% {
+        content: 'Adiba_A|';
+    }
+
+    83% {
+        content: 'Adiba_|';
+    }
+
+    85% {
+        content: 'Adiba|';
+    }
+
+    87% {
+        content: 'Adib|';
+    }
+
+    89% {
+        content: 'Adi|';
+    } 
+
+    91% {
+        content:  'Ad|';
+    }
+
+    93%{
+        content:'A|'
+    }
+    95%{
+        content:'|'
+    }
+    100%{
+        content:'|'
+    }
+
+}
+
+.icon{
+    position: absolute; 
+    bottom: 30px;
+    margin-left: 7%;
+}
+
+.icon > a{
+    margin: 10px;
+}
+
+.fa-instagram-square{
+    color: rgb(211, 12, 194);
+    font-size: 30px;
+}
+
+.fa-heart{
+    color: red;
+    font-size: 30px;
+}
+
+.fa-facebook-square{
+    color: blue;
+    font-size: 30px;
+}
+
+
+
